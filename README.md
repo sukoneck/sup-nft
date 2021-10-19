@@ -29,3 +29,4 @@ If the `project_feature` variable is populated (e.g. above), then only matching 
 - Use the OpenSea API - Even without an API key, we can pull 50 at a time, rather than one.
 - Re-write in Go - Hyperthread the slipstream for all those single-token api calls
 - Cache it up - Slap the results into Mongo or something so that subsequent queries use the cache.  
+- Existing tools - Use the official AB npm package https://github.com/ArtBlocks/node-artblocks 
